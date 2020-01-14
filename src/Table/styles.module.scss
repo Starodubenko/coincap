@@ -1,0 +1,46 @@
+.Container {
+  margin: 0 100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.TableHead {
+  height: 26px;
+}
+
+.TableBody {
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
+  height: calc(100% - 26px);;
+}
+
+.TableRow {
+  text-align: center;
+  border: 1px solid black;
+  height: 100px;
+}
+
+.TableHeader {
+  height: 26px;
+}
+
+.TableRowMobileHidden {
+  @media only screen and (max-width: 992px)  {
+    display: none;
+  }
+}
+
+table {
+  height: 100%;
+}
+
+thead, tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
+
