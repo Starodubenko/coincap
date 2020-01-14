@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/coincap/static/css/main.81e8e500.chunk.css",
+    "main.js": "/coincap/static/js/main.dd5cba87.chunk.js",
+    "main.js.map": "/coincap/static/js/main.dd5cba87.chunk.js.map",
+    "runtime-main.js": "/coincap/static/js/runtime-main.7383296d.js",
+    "runtime-main.js.map": "/coincap/static/js/runtime-main.7383296d.js.map",
+    "static/js/2.6ad2f152.chunk.js": "/coincap/static/js/2.6ad2f152.chunk.js",
+    "static/js/2.6ad2f152.chunk.js.map": "/coincap/static/js/2.6ad2f152.chunk.js.map",
+    "index.html": "/coincap/index.html",
+    "precache-manifest.fd8b64a777f2c7788b93d5d4f0b7963e.js": "/coincap/precache-manifest.fd8b64a777f2c7788b93d5d4f0b7963e.js",
+    "service-worker.js": "/coincap/service-worker.js",
+    "static/css/main.81e8e500.chunk.css.map": "/coincap/static/css/main.81e8e500.chunk.css.map",
+    "static/js/2.6ad2f152.chunk.js.LICENSE": "/coincap/static/js/2.6ad2f152.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7383296d.js",
+    "static/js/2.6ad2f152.chunk.js",
+    "static/css/main.81e8e500.chunk.css",
+    "static/js/main.dd5cba87.chunk.js"
+  ]
+}
