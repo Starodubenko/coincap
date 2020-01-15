@@ -25,12 +25,12 @@ export const CoinsCapTable: React.FC<TableProps> = (props) => {
 
     const renderRows = useCallback(() => rowsData.map((row, index) => (
         (
-            <tr key={row.id}>
-                <td className={styles.TableRow}>{index}</td>
-                <td className={styles.TableRow}>{row.name}</td>
-                <td className={styles.TableRow}>{row.price}</td>
-                <td className={`${styles.TableRow} ${styles.TableRowMobileHidden}`}>{row.marketCap}</td>
-                <td className={`${styles.TableRow} ${styles.TableRowMobileHidden}`}>{row.dayVolume}</td>
+            <tr className={styles.TableRow} key={row.id}>
+                <td className={styles.TableCell}>{index}</td>
+                <td className={styles.TableCell}>{row.name}</td>
+                <td className={styles.TableCell}>{row.price}</td>
+                <td className={`${styles.TableCell} ${styles.TableRowMobileHidden}`}>{row.marketCap}</td>
+                <td className={`${styles.TableCell} ${styles.TableRowMobileHidden}`}>{row.dayVolume}</td>
             </tr>
         )
     )), [rowsData]);
